@@ -19,7 +19,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => 'this is a automatically reply from PINotification LINE@' //$text
+				'text' => 'Hi, this is official LINE for PINotification from Asset Optimization.' //$text
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
